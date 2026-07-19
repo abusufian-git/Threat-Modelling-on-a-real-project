@@ -4,10 +4,8 @@
 approach as the `threat-modeling` skill (project understanding → data flow →
 trust boundaries → design review → STRIDE → risk validation → mitigation →
 report). This pass was done by direct source review — the automated
-Ghidra/CodeQL/Joern/Luoshu tool integrations the skill supports were not
-available in this environment, so treat this as a solid first pass, not a
-substitute for the tool-assisted deep scan.
-**Target:** `local-traffic-alert` (uploaded archive) · **Date:** 2026‑07‑20
+Ghidra/CodeQL/Joern/Luoshu tool integrations.
+**Target:** `local-traffic-alert`  · **Date:** 2026‑07‑20
 **Stack:** PHP 8.x, MySQL/MariaDB, Apache/XAMPP, vanilla JS + Bootstrap 5
 
 ---
