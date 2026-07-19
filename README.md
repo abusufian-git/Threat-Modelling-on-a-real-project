@@ -22,8 +22,7 @@ with randomized filenames, and fine/payment queries are consistently scoped
 by `user_id`. **No SQL injection, RCE, or LFI was found in the code paths
 reviewed.**
 
-That said, three issues rated **Critical** were found, and two of them are
-not theoretical — they're live in the exact files you uploaded:
+
 
 1. **A real Gmail address and app password are committed in `.env` and
    `config/email-credentials.php`.**
