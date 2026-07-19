@@ -368,5 +368,4 @@ checks, and secrets/config handling — via targeted manual reading of
 ~25 of the ~150 PHP files plus the schema. It is not an exhaustive
 line-by-line audit of all 150 files (e.g. `police/`, `api/v1/*`, and the
 admin congestion/signal UIs beyond what's cited above weren't individually
-reviewed). Ask if you'd like a follow-up pass focused on any specific
-module.*
+reviewed).*
