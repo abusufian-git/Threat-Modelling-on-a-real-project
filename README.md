@@ -1,5 +1,7 @@
 # Local Traffic Alert — Security Risk Assessment Report
-
+<p align="center">
+<img src="dfd.png" width="100%">
+</p>
 **Methodology:** Manual, code-first threat model (STRIDE), following the same 8‑phase
 approach as the `threat-modeling` skill (project understanding → data flow →
 trust boundaries → design review → STRIDE → risk validation → mitigation →
