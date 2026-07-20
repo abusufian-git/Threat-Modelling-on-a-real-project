@@ -1,7 +1,5 @@
 # Local Traffic Alert — Security Risk Assessment Report
-<p align="center">
-<img src="dfd.png" width="100%">
-</p>
+
 **Methodology:** Manual, code-first threat model (STRIDE), following the same 8‑phase
 approach as the `threat-modeling` skill (project understanding → data flow →
 trust boundaries → design review → STRIDE → risk validation → mitigation →
@@ -67,7 +65,9 @@ Internet ──▶ Apache/.htaccess ──▶ index.php / auth,user,police,admin
                         ▼ (fallback on SMTP failure, gated by APP_URL check)
                   logs/dev-mail.log   ◀── unprotected, in web root
 ```
-
+<p align="center">
+<img src="dfd.png" width="100%">
+</p>
 ### Trust boundaries
 - **TB1 — Anonymous → Authenticated**: crossed at `auth/login.php`,
   `auth/register.php`. Guarded by CSRF + bcrypt password verify.
